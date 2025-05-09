@@ -1,10 +1,18 @@
 import type { FC } from 'react';
+import Link from 'next/link';
+import { socialList } from '@/data';
 
 export const Footer: FC = () => {
   return (
     <footer className='flex justify-center items-center gap-4 p-4'>
-      <a href='https://github.com/VladMatviyuk' className='hover:underline' target='_blank'>Git</a> |
-      <a href='https://t.me/jr_matviyuk' className='hover:underline' target='_blank'>Telegram</a>
+      {socialList.map(link => <Link
+        key={link.path}
+        href={link.path}
+        className='hover:underline'
+        target='_blank'
+      >
+        {link.title}
+      </Link>)}
     </footer>
   )
 }

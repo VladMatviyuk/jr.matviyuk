@@ -1,12 +1,15 @@
-import { Projects } from '@/widgets/Projects/Projects';
-import { projects } from '@/data/projects';
+'use client'
+
+import { Header, ProjectsList } from '@/widgets';
 
 export default function ProjectsPage() {
-
   return (
-      <div className='p-4 flex flex-col gap-4 h-full'>
-        <h1>Личные проекты:</h1>
-        <Projects list={projects} />
-      </div>
+    <>
+      <Header/>
+      <section className="flex flex-col px-4">
+        <h1>Проекты:</h1>
+        <ProjectsList/>
+      </section>
+    </>
   );
 }

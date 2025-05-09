@@ -1,4 +1,3 @@
-export { TechnologiesList } from './TechnologiesList/TechnologiesList';
+export { TechnologiesList } from '@/widgets/TechnologiesList/TechnologiesList';
 export { ThemeToggle } from './ThemeToggle/ThemeToggle';
-export { Project } from './Project/Project';
-export type { IProject } from './Project/interfaces';
+export { Badge } from './Badge/Badge';
