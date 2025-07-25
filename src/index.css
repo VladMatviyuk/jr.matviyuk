@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+
+  background: #131313;
+  color: #fff;
+  font-family: 'Fira Mono', monospace;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
