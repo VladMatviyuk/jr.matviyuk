@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { calculateDate } from "../../utils/calcDate";
 
 const BIRH_DATE = "1997-12-25";
-const START_WORK_DATE = "2018-08-1";
+const START_WORK_DATE = "2018-08-01";
 
 export const Content = () => {
   return (
