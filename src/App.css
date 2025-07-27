@@ -45,6 +45,12 @@ footer a img {
   width: 33px;
 }
 
+@media (max-width: 768px) {
+  footer {
+    padding-bottom: 6rem;
+  }
+}
+
 .links {
   cursor: pointer;
   color: rgb(156, 156, 156);
