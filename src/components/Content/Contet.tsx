@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
-import { calculateAge } from "../../utils/calcAge";
+import { calculateDate } from "../../utils/calcDate";
 
 const BIRH_DATE = "1997-12-25";
+const START_WORK_DATE = "2018-08-1";
 
 export const Content = () => {
   return (
     <main>
       <div>
         <div>frontend разработчик</div>
-        <div>{calculateAge(BIRH_DATE)} лет</div>
-        <div>Опыт 6 лет</div>
+        <div>{calculateDate(BIRH_DATE).years} лет</div>
+        <div>Опыт ~{calculateDate(START_WORK_DATE).years} лет</div>
       </div>
       <div>
         <div>
