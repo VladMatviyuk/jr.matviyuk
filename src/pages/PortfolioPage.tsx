@@ -3,7 +3,7 @@ import { Header } from "../components/Header/Header";
 export const PortfolioPage = () => {
   return (
     <div>
-      <Header>Портфолио</Header>
+      <Header>Проекты</Header>
       <main>
         <ul>
           <li>
@@ -17,8 +17,8 @@ export const PortfolioPage = () => {
             <span className="tch">React, TS, Vite.</span>
           </li>
           <li>
-            <a href="http://62.113.41.218:3001/" target="_blank">
-              5frm
+            <a href="http://flash.matviyuk.online/" target="_blank">
+              WebFlash
             </a>
             &nbsp;-&nbsp;карточки для повторения веб-технологий.{" "}
             <span className="tch">React, TS, Vite.</span>

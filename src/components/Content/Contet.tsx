@@ -18,7 +18,7 @@ export const Content = () => {
         </div>
         <br />
         <Link to={"/portfolio"} className="links">
-          Портфолио
+          Проекты
         </Link>
         <Link to={"/career"} className="links">
           Карьера
