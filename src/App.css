@@ -47,7 +47,7 @@ footer a img {
 
 @media (max-width: 768px) {
   footer {
-    padding-bottom: 6rem;
+    margin-bottom: 6rem;
   }
 }
 
