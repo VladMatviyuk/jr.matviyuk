@@ -1,4 +1,4 @@
-import { Header } from "../components/Header/Header";
+import { Header } from '../components/Header/Header';
 
 export const PortfolioPage = () => {
   return (
@@ -7,20 +7,17 @@ export const PortfolioPage = () => {
       <main>
         <ul>
           <li>
-            <a
-              href="https://vladmatviyuk-beer-flip-be4a.twc1.net/"
-              target="_blank"
-            >
+            <a href="https://beerflip.matviyuk.online/" target="_blank">
               BeerFleep
             </a>
-            &nbsp;-&nbsp;простая игра найди пару в пиксельном стиле.{" "}
+            &nbsp;-&nbsp;простая игра найди пару в пиксельном стиле.{' '}
             <span className="tch">React, TS, Vite.</span>
           </li>
           <li>
-            <a href="http://flash.matviyuk.online/" target="_blank">
+            <a href="https://flash.matviyuk.online/" target="_blank">
               WebFlash
             </a>
-            &nbsp;-&nbsp;карточки для повторения веб-технологий.{" "}
+            &nbsp;-&nbsp;карточки для повторения веб-технологий.{' '}
             <span className="tch">React, TS, Vite.</span>
           </li>
 
@@ -31,7 +28,7 @@ export const PortfolioPage = () => {
             >
               WeatherApp
             </a>
-            &nbsp;-&nbsp;прогноз погоды по координатам.{" "}
+            &nbsp;-&nbsp;прогноз погоды по координатам.{' '}
             <span className="tch">OpenLayer, React, TS, Vite.</span>
           </li>
         </ul>
